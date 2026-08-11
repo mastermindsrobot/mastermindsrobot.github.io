@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Team 0000 Robotics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="titleblock">
+  <div class="wrap">
+    <a href="index.html" class="mark">IRONCLAD <span class="num">TEAM 0000</span></a>
+    <nav class="primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="roster.html">Roster</a>
+      <a href="robots.html">Robots</a>
+      <a href="sponsors.html">Sponsors</a>
+      <a href="awards.html">Awards</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom: 60px;">
+  <div class="wrap">
+    <p class="eyebrow">Get in touch</p>
+    <h1 class="hero-title">Contact us</h1>
+    <p class="hero-sub">Questions about sponsoring, mentoring, or joining the team? Reach out — we'd love to hear from you.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin: 0 0 20px;">Send a message</h2>
+      <!--
+        This form has no backend yet. To make it actually send email,
+        connect it to a free form service like Formspree (formspree.io) —
+        sign up, then replace the form "action" URL below with the one
+        they give you.
+      -->
+      <form class="form-grid" action="https://formspree.io/f/your-form-id" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer; justify-self: start;">Send message</button>
+      </form>
+    </div>
+
+    <div>
+      <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin: 0 0 20px;">Details</h2>
+      <dl class="contact-info">
+        <dt>Email</dt><dd>team0000@yourschool.edu</dd>
+        <dt>Instagram</dt><dd>@team0000robotics</dd>
+        <dt>Meets</dt><dd>Mon / Wed / Fri, 3:30–6:00 PM</dd>
+        <dt>Location</dt><dd>Robotics Shop, Your School Name</dd>
+        <dt>Mailing address</dt><dd>123 School St, Your City, State 00000</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Team 0000 Robotics.</span>
+    <span><a href="contact.html">Get in touch</a> · <a href="#">Instagram</a> · <a href="https://github.com" target="_blank" rel="noopener">GitHub</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
